@@ -1,0 +1,15 @@
+ 
+ 
+ 
+ 
+                            Tree order
+                                │
+                 ┌──────────────┴──────────────┐
+                 │                             │
+            Depth-wise                    Level-wise
+            (Using DFS)                  (Using BFS)
+                 │                             │
+      ┌──────────┼──────────┐                  │
+      │          │          │                  │
+  Preorder    Inorder   Postorder         Level Order
+ (Root L R)  (L Root R) (L R Root)      (Level by Level)
