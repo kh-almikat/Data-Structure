@@ -1,0 +1,22 @@
+
+IF, N=1000
+
+
+
+Constant:      O(1)         -> 1
+Linear:        O(N)      -> 1000
+Logarithmic:   O(logN)     -> 10
+square root:   O(sqrt(N))  -> 32
+quadratic:     O(N*N)  ->1000000
+Linearithmic:  O(NlogN) -> 10000
+
+
+
+Rankings:
+    1. Constant: O(1)
+    2. Logarithmic: O(logN)
+    3. Square Root: O(sqrt(N))
+    4. Linear: O(N)
+    5. Linearithmic: O(NlogN)
+    6. Quadratic: O(N*N) / O(N*M)
+
