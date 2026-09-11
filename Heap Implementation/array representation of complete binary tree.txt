@@ -1,0 +1,16 @@
+0-based indexing :
+
+Parent index = (child_idx - 1) / 2
+
+Left child   = 2*parent_idx + 1
+Right child  = 2*parent_idx + 2
+
+
+
+
+1-based indexing :
+
+Parent index = child_idx / 2
+
+Left child   = 2*parent_idx
+Right child  = 2*parent_idx + 1
